@@ -122,3 +122,43 @@ ul li a:hover{
 button:hover{
     cursor: pointer;
 }
+
+@media(max-width:768px){
+    body{
+        height: 100vh;
+        width: 100%;
+    }
+    .Home{
+        height: min-content;
+        width: 100%;
+    }
+    nav{
+        display: block;
+        text-align: center;
+        height: min-content;
+    }
+    nav ul li{
+        display: block;
+        background-color: #ffffff;
+        border: 1px solid black;
+    }
+    nav ul li a{
+        color: #A68B00;
+    }
+    .title{
+        padding: 20px;
+    }
+    .Opening-text{
+        display: block;
+        text-align: center;
+    }
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .child{
+        padding: 50px;
+    }
+}
